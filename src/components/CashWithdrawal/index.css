@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fourth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+}
